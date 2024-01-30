@@ -81,3 +81,14 @@ Part2:
 
 3. SSH into the vm without password
 ![Fifth screenshot](f5.png)
+
+
+Part3:
+
+In weeks 2 and 3 of the lab, I learned about using `ssh` (Secure Shell) to securely access a remote server or virtual machine, a concept I was previously unfamiliar with. This knowledge opened up the possibility of remotely managing systems and executing commands on them as if I were physically present. Additionally, I discovered the utility of `scp` (Secure Copy Protocol), which allows for the secure transfer of files between a local machine and a remote server. I also learned that using SSH keys for authentication can eliminate the need for entering passwords repeatedly, enhancing both convenience and security.
+
+
+
+
+
+
