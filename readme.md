@@ -71,3 +71,13 @@ public class ChatServer {
 1. The handle method in MessageHandler is called again.
 2. The relevant arguments: user: "yash", message: "How are you".
 3. The elevant fields of the class changes: chatHistory changes from "jpolitz: Hello\n" to "jpolitz: Hello\nyash: How are you\n"
+
+Part2:
+1. The abs path for the keys in local
+![Third screenshot](f3.png)
+
+2. The abs path for the keys in remote
+![Fourth screenshot](f4.png)
+
+3. SSH into the vm without password
+![Fifth screenshot](f5.png)
