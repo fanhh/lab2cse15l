@@ -62,14 +62,14 @@ public class ChatServer {
 
 ![First Screenshot](f1.png)
 
-1. The `handle` method in MessageHandler is called.
-2. The relevant arguments: user: "jpolitz", message: "Hello".
+1. The ```handle```method in MessageHandler is called.
+2. The relevant arguments: ```HttpExchange exchange```
 3. The elevant fields of the class changes: chatHistory changes from "" to "jpolitz: Hello\n".
 
 
 !![second Screenshot](f2.png)
-1. The `handle` method in MessageHandler is called again.
-2. The relevant arguments: user: "yash", message: "How are you".
+1. The ```handle``` method in MessageHandler is called again.
+2. The relevant arguments:  ```HttpExchange exchange```
 3. The elevant fields of the class changes: chatHistory changes from "jpolitz: Hello\n" to "jpolitz: Hello\nyash: How are you\n"
 
 Part2:
